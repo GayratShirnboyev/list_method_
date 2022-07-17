@@ -7,13 +7,14 @@
     Returns:
         list: return answer
 */
-List func(a) {
-  int g = 0;
-  List f = ['orange', 'apple'];
-  f.add(a);
-  return f;
+List func(a, b) {
+  List g = [];
+  g.add(a);
+  g.add(b);
+  g.add('orange');
+  return g;
 }
 
 void main() {
-  print(func('ananas'));
+  print(func('ananas', 'apple'));
 }
