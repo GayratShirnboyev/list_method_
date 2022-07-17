@@ -10,7 +10,7 @@
 List func() {
   int g = 0;
   List f = ['orange', 'apple'];
-  f.add('ananas');
+  f.add('kiwi');
   return f;
 }
 
