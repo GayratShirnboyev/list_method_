@@ -7,14 +7,12 @@
     Returns:
         list: return answer
 */
-List func(a, b) {
+List func(List a, String b) {
   List g = [];
-  g.add(a);
-  g.add(b);
-  g.add('orange');
+
   return g;
 }
 
 void main() {
-  print(func('ananas', 'apple'));
+  print(func(['ananas', 'apple'], 'fruit'));
 }
