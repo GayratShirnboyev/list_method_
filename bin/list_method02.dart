@@ -8,21 +8,19 @@
     Returns:
         list: return answer 
 */
-List func(a, b) {
-  List l = [];
-  l.add(a);
-  l.add(b);
-  l.insert(1, 'orange');
-  return l;
 
+List func(List fruits, String c, int b) {
+  fruits.insert(b, c);
+
+  return fruits;
+}
+
+void main() {
+  print(func(['grape', 'orange', 'banana', 'appla'], 'melon', 4));
+}
 //   fruits.add(x);
 //   return fruits;
 // }
 
 // void main() {
 //   print(func(['orange', 'greap'], 'kiwi'));
-}
-
-void main() {
-  print(func('orange', 'pinaple'));
-}
