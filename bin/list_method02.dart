@@ -9,13 +9,13 @@
         list: return answer 
 */
 List func(a, b) {
-  List l = [];
-  l.add(a);
-  l.add(b);
-  l.insert(1, 'apple');
-  return l;
+  List f = [];
+  f.add(a);
+  f.add(b);
+  f.insert(1, 'apple');
+  return f;
 }
 
 void main() {
-  print(func('ananas', 'orange'));
+  print(func('orange', 'ananas'));
 }
