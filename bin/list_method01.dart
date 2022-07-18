@@ -9,6 +9,8 @@
 */
 List func(List a, String b) {
   List g = [];
+  g.add(a);
+  g.add(b);
 
   return g;
 }
