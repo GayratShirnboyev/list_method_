@@ -20,5 +20,5 @@ int func(List fruits) {
 }
 
 void main() {
-  print(func(['apple', 'orange', 'ananas', 'orange']));
+  print(func(['apple', 'orange', 'ananas', 'orange', 'orange']));
 }
