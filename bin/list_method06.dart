@@ -11,7 +11,7 @@ int func(List fruits) {
   int c = 0;
   int x = fruits.length;
   while (x > k) {
-    if (fruits[k] == 'orange') {
+    if (fruits[k] == 'apple') {
       c++;
     }
     k++;
@@ -20,5 +20,5 @@ int func(List fruits) {
 }
 
 void main() {
-  print(func(['apple', 'orange', 'ananas', 'orange', 'orange']));
+  print(func(["apple", "kiwi", "banana", "apple", "apple", "apple", "apple"]));
 }
