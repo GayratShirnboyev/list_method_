@@ -11,8 +11,8 @@ List func(List x) {
   int i = 0;
   int l = x.length;
   while (l > i) {
-    if ('apple' == x[i]) {
-      y.add(i);
+    if ('apple' != x[i]) {
+      y.add(x[i]);
     }
     i += 1;
   }
